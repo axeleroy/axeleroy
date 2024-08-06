@@ -1,6 +1,5 @@
 import { XMLParser } from "fast-xml-parser";
 import { RSS } from "./types";
-import { testData } from "./test-data";
 
 const FEED_URL = "https://axel.leroy.sh/rss";
 
@@ -24,6 +23,6 @@ function parseXml(xmlString: string): RSS {
 }
 
 export async function fetchAndParse(): Promise<RSS> {
-    // const xmlString = await fetchFeedXml();
-    return parseXml(testData);
+    const xmlString = await fetchFeedXml();
+    return parseXml(xmlString);
 }
