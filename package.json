@@ -1,0 +1,28 @@
+{
+  "name": "readme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "GitHub",
+    "README"
+  ],
+  "author": "Axel Leroy",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/node": "^22.1.0",
+    "eslint": "~9.8.0",
+    "globals": "^15.9.0",
+    "prettier": "3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.12",
+    "fast-xml-parser": "^4.4.1"
+  }
+}
