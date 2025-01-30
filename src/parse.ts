@@ -18,7 +18,7 @@ async function fetchFeedXml(): Promise<string> {
 
 const parser = new XMLParser();
 
-function parseXml(xmlString: string): RSS {
+export function parseXml(xmlString: string): RSS {
     return parser.parse(xmlString);
 }
 

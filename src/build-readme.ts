@@ -14,7 +14,7 @@ I’m a developer from Paris passionate about technology as well as a photograph
 You can find me on Mastodon or my blog, where I write articles on many subjects including development.
 
 ### Here are the **last 5 articles** I published:
-  
+
 ${items
     .slice(0, 5)
     .map((item) => ({ ...item, link: item.link.replace("utm_source=rss", "utm_source=github_profile") }))
