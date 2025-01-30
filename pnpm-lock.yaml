@@ -7,7 +7,7 @@ settings:
 dependencies:
   dayjs:
     specifier: ^1.11.12
-    version: 1.11.12
+    version: 1.11.13
   fast-xml-parser:
     specifier: ^4.4.1
     version: 4.4.1
@@ -1287,8 +1287,8 @@ packages:
       which: 2.0.2
     dev: true
 
-  /dayjs@1.11.12:
-    resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
+  /dayjs@1.11.13:
+    resolution: {integrity: sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==}
     dev: false
 
   /debug@4.3.6:
