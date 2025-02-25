@@ -10,7 +10,7 @@ dependencies:
     version: 1.11.13
   fast-xml-parser:
     specifier: ^5.0.0
-    version: 5.0.6
+    version: 5.0.7
 
 devDependencies:
   '@eslint/js':
@@ -1569,8 +1569,8 @@ packages:
     resolution: {integrity: sha512-DCXu6Ifhqcks7TZKY3Hxp3y6qphY5SJZmrWMDrKcERSOXWQdMhU9Ig/PYrzyw/ul9jOIyh0N4M0tbC5hodg8dw==}
     dev: true
 
-  /fast-xml-parser@5.0.6:
-    resolution: {integrity: sha512-5zIl0jWsewL5LdneswG6aJXx1YH1FXQ02UVIe/CZI3wXhI3SqP62bjcIYRNOgU43/MnN1t/MCpH6UoOtBrDNug==}
+  /fast-xml-parser@5.0.7:
+    resolution: {integrity: sha512-hRgQW2Az3ASwFo7wqBM2Uq9LcLoOVhGhE/yhjsIfd4gdDk0pqwKTHOSQYO1Zf7Nl/7Th2ykdmkPNntCfq3gBFg==}
     hasBin: true
     dependencies:
       strnum: 2.0.4
