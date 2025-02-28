@@ -26,7 +26,7 @@
     "typescript-eslint": "^8.25.0"
   },
   "dependencies": {
-    "dayjs": "^1.11.12",
+    "dayjs": "^1.11.13",
     "fast-xml-parser": "^5.0.0"
   }
 }
