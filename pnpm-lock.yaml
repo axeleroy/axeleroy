@@ -9,7 +9,7 @@ dependencies:
     specifier: ^1.11.13
     version: 1.11.13
   fast-xml-parser:
-    specifier: ^5.0.0
+    specifier: ^5.0.8
     version: 5.0.8
 
 devDependencies:
