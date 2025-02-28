@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   dayjs:
-    specifier: ^1.11.12
+    specifier: ^1.11.13
     version: 1.11.13
   fast-xml-parser:
     specifier: ^5.0.0
