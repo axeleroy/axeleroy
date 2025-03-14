@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "dayjs": "^1.11.13",
-    "fast-xml-parser": "^5.0.8"
+    "fast-xml-parser": "^5.0.9"
   }
 }
