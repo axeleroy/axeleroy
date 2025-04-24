@@ -28,5 +28,6 @@
   "dependencies": {
     "dayjs": "^1.11.13",
     "fast-xml-parser": "^5.2.1"
-  }
+  },
+  "packageManager": "pnpm@8.15.9"
 }
