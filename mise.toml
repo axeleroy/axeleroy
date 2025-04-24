@@ -1,6 +1,9 @@
 [tools]
 node = '22.15.0'
 
+[env]
+_.path = ['./node_modules/.bin']
+
 [hooks]
 postinstall = 'npx corepack enable'
 
