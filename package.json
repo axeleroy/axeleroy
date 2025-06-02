@@ -29,5 +29,5 @@
     "dayjs": "^1.11.13",
     "fast-xml-parser": "^5.2.3"
   },
-  "packageManager": "pnpm@10.11.0"
+  "packageManager": "pnpm@10.11.1"
 }
