@@ -7,14 +7,13 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v5
       - uses: jdx/mise-action@v3
         with:
-          version: 2024.12.14
           install: true
           cache: true
           experimental: true
