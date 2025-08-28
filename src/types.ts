@@ -10,11 +10,10 @@ type Channel = {
     item: RssItem[];
 };
 
-type RssItem = {
+export type RssItem = {
     title: string;
     description: string;
     link: string;
     pubDate: string;
     category: string[];
 };
-// Sun, 04 Aug 2024 14:01:46

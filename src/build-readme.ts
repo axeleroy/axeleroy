@@ -1,4 +1,4 @@
-import { RSS } from "./types";
+import { RSS, RssItem } from "./types";
 import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 
@@ -17,8 +17,22 @@ You can find me on Mastodon or my blog, where I write articles on many subjects 
 
 ${items
     .slice(0, 5)
-    .map((item) => ({ ...item, link: item.link.replace("utm_source=rss", "utm_source=github_profile") }))
-    .map((item, index) => `${index + 1}. [${item.title}](${item.link}) on ${dayjs(item.pubDate).format("YYYY-MM-DD")}`)
+    .map(rewriteUtm)
+    .map(stringify)
     .join("\n")}
 `;
+}
+
+function rewriteUtm(item: RssItem): RssItem {
+    return ({
+        ...item,
+        link: item.link.replace("utm_source=rss", "utm_source=github_profile")
+    })
+}
+
+function stringify(item: RssItem, index: number): string {
+    const {title, link, pubDate} = item;
+    const dateStr = dayjs(pubDate).format("YYYY-MM-DD");
+
+    return `${index + 1}. [${title}](${link}) on ${dateStr}`
 }
