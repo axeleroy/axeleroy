@@ -15,5 +15,5 @@ export type RssItem = {
     description: string;
     link: string;
     pubDate: string;
-    category: string[];
+    category: string | string[];
 };

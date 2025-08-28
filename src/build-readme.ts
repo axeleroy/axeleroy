@@ -1,6 +1,7 @@
 import { RSS, RssItem } from "./types";
 import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
+import slugify from "slugify";
 
 dayjs.extend(customParseFormat);
 
@@ -31,8 +32,23 @@ function rewriteUtm(item: RssItem): RssItem {
 }
 
 function stringify(item: RssItem, index: number): string {
-    const {title, link, pubDate} = item;
+    const {title, link, pubDate, category} = item;
     const dateStr = dayjs(pubDate).format("YYYY-MM-DD");
 
-    return `${index + 1}. [${title}](${link}) on ${dateStr}`
+    return `${index + 1}. [${title}](${link}) on ${dateStr} ${listCategories(category)}`
+}
+
+function listCategories(categories: string | string[]): string {
+    if (Array.isArray(categories)) {
+        return categories
+        .map(buildCategoryUrl)
+        .join(" ")
+    } else {
+        return buildCategoryUrl(categories)
+    }
+}
+
+function buildCategoryUrl(category: string): string {
+    const slug = slugify(category, { lower: true });
+    return `[#${category}](https://axel.leroy.sh/blog/topic/${slug}?utm_source=github_profile)`;
 }
