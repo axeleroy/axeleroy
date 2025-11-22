@@ -10,5 +10,6 @@
         "automerge": true
     }
   ],
-  "rangeStrategy": "bump"
+  "rangeStrategy": "bump",
+  "minimumReleaseAge": "7 days"
 }
