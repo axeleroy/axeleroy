@@ -12,7 +12,8 @@ export function buildReadme(feed: RSS): string {
  
 I’m a developer from Paris passionate about technology as well as a photographer on my free time.
 
-You can find me on Mastodon or my blog, where I write articles on many subjects including development.
+You can find me on <a href="https://toot.community/@axeleroy" rel="me">Mastodon</a> or
+[my blog](https://axel.leroy.sh/blog), where I write articles on many subjects including development.
 
 ### Here are the **last 5 articles** I published:
 
@@ -21,6 +22,10 @@ ${items
     .map(rewriteUtm)
     .map(stringify)
     .join("\n")}
+
+### Other links
+ - [GitHub profile](https://github.com/axeleroy) 
+ - [my personal Forgejo instance](https://git.axeleroy.com)
 `;
 }
 
