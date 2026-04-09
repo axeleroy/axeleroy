@@ -15,8 +15,8 @@ importers:
         specifier: ^5.5.9
         version: 5.5.9
       slugify:
-        specifier: ^1.6.8
-        version: 1.6.8
+        specifier: ^1.6.9
+        version: 1.6.9
     devDependencies:
       '@eslint/js':
         specifier: ^10.0.1
@@ -1608,8 +1608,8 @@ packages:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
 
-  slugify@1.6.8:
-    resolution: {integrity: sha512-HVk9X1E0gz3mSpoi60h/saazLKXKaZThMLU3u/aNwoYn8/xQyX2MGxL0ui2eaokkD7tF+Zo+cKTHUbe1mmmGzA==}
+  slugify@1.6.9:
+    resolution: {integrity: sha512-vZ7rfeehZui7wQs438JXBckYLkIIdfHOXsaVEUMyS5fHo1483l1bMdo0EDSWYclY0yZKFOipDy4KHuKs6ssvdg==}
     engines: {node: '>=8.0.0'}
 
   source-map-support@0.5.13:
@@ -3669,7 +3669,7 @@ snapshots:
 
   slash@3.0.0: {}
 
-  slugify@1.6.8: {}
+  slugify@1.6.9: {}
 
   source-map-support@0.5.13:
     dependencies:
