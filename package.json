@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.20",
-    "fast-xml-parser": "^5.7.1",
+    "fast-xml-parser": "^5.7.2",
     "slugify": "^1.6.9"
   },
   "packageManager": "pnpm@10.33.2"
