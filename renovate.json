@@ -11,6 +11,7 @@
     "rangeStrategy": "bump",
     "minimumReleaseAge": "7 days",
     "lockFileMaintenance": {
-        "automerge": true
+        "automerge": true,
+        "minimumReleaseAgeBehaviour": "timestamp-optional"
     }
 }
