@@ -30,5 +30,5 @@
     "fast-xml-parser": "^5.9.3",
     "slugify": "^1.6.9"
   },
-  "packageManager": "pnpm@11.9.0"
+  "packageManager": "pnpm@11.10.0"
 }
