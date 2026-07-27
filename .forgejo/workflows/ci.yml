@@ -3,9 +3,6 @@ name: Continuous Integration
 on:
   push: {}
 
-permissions:
-  contents: write
-
 jobs:
   ci:
     runs-on: docker
