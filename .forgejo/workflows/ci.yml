@@ -1,7 +1,10 @@
 name: Continuous Integration
 
 on:
-  push: {}
+  push:
+    path-ignore:
+      - "README.md"
+      - "renovate.json"
 
 jobs:
   ci:
