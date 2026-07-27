@@ -3,8 +3,7 @@ name: Continuous Integration
 on:
   push:
     branches:
-      branches:
-        - main
+      - main
     path-ignore:
       - "README.md"
       - "renovate.json"
