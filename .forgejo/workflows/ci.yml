@@ -2,9 +2,13 @@ name: Continuous Integration
 
 on:
   push:
+    branches:
+      branches:
+        - main
     path-ignore:
       - "README.md"
       - "renovate.json"
+  pull_request:
 
 jobs:
   ci:
