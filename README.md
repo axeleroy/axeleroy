@@ -16,4 +16,3 @@ You can find me on <a href="https://toot.community/@axeleroy" rel="me">Mastodon<
 
 ### Other links
  - [GitHub profile](https://github.com/axeleroy) 
- - [My personal Forgejo instance](https://git.axeleroy.com)
