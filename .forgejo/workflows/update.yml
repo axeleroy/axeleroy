@@ -19,6 +19,7 @@ jobs:
       - name: Build README.md
         run: mise start
       - name: Commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         run: |
           git config --global user.name 'Axel Leroy'
           git config --global user.email 'axeleroy@users.noreply.github.com'
