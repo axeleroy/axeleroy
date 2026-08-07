@@ -3,7 +3,7 @@
  
 I’m a developer from Paris passionate about technology as well as a photographer on my free time.
 
-You can find me on <a href="https://toot.community/@axeleroy" rel="me">Mastodon</a> or
+You can find me on <a href="https://gts.leroy.sh/@axel" rel="me">Mastodon</a> or
 [my blog](https://axel.leroy.sh/blog), where I write articles on many subjects including development.
 
 ### Here are the **last 5 articles** I published:
