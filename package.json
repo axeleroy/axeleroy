@@ -28,7 +28,7 @@
         "typescript-eslint": "8.67.0"
     },
     "dependencies": {
-        "dayjs": "1.11.22",
+        "dayjs": "1.11.23",
         "fast-xml-parser": "5.11.0",
         "slugify": "1.6.9"
     },
