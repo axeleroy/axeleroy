@@ -20,6 +20,10 @@ jobs:
           install: true
           cache: true
           experimental: true
+          minimum_release_age: 7d
+          github_token: ${{secrets.MISE_GH_TOKEN}}
+        env:
+          MISE_GITHUB_TOKEN: ${{secrets.MISE_GH_TOKEN}}
       - name: Run tests
         run: mise test
           
