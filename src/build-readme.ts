@@ -25,7 +25,7 @@ ${items
 
 ### Other links
  - [GitHub profile](https://github.com/axeleroy) 
- - [My personal Forgejo instance](https://git.axeleroy.com)
+ - [My personal Forgejo instance](https://git.axeleroy.eu)
 `;
 }
 

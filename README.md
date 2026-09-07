@@ -16,4 +16,4 @@ You can find me on <a href="https://gts.leroy.sh/@axel" rel="me">Mastodon</a> or
 
 ### Other links
  - [GitHub profile](https://github.com/axeleroy) 
- - [My personal Forgejo instance](https://git.axeleroy.com)
+ - [My personal Forgejo instance](https://git.axeleroy.eu)
